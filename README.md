@@ -10,11 +10,13 @@ Building AI agent cloud deployment infrastructure — from platform abstraction 
 框架     upstream nanobot (单智能体引擎)
 ```
 
+📖 [框架总览](https://github.com/DreamShepherd2006/cloud-agent-gateway/blob/main/docs/FRAMEWORK.md) — 七能力架构 · 设计模式 · Relay 对比
+
 ### 🏗️ 仓库
 
 | 仓库 | 角色 |
 |---|---|
-| [**cloud-agent-gateway**](https://github.com/DreamShepherd2006/cloud-agent-gateway) | 框架底层 — 平台探测、OAuth 代理、HTTP Relay 中继，pip 包 |
+| [**cloud-agent-gateway**](https://github.com/DreamShepherd2006/cloud-agent-gateway) | 框架底层 — 平台探测、OAuth 代理、社交通道绑定 (微信/钉钉)、Relay 中继，pip 包 |
 | [**nanobot-legion**](https://github.com/DreamShepherd2006/nanobot-legion) | 应用部署层 — Gatekeeper 网关、Squad 多智能体、补丁、五空间部署 |
 | [nanobot](https://github.com/DreamShepherd2006/nanobot) | 上游 fork — PR 提交 |
 | [openclaw](https://github.com/DreamShepherd2006/openclaw) | openclaw fork |
